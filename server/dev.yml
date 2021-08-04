@@ -1,0 +1,14 @@
+server:
+  gzip:
+    enabled: false
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 9080
+
+logging:
+  level: INFO
+  appenders:
+    - type: console
